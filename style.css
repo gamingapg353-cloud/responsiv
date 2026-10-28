@@ -84,4 +84,8 @@ header {
     .menu {
         display: flex;
     }
+
+    .res {
+        height: calc(100vh - 50px);
+    }
 }
