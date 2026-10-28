@@ -38,12 +38,13 @@ header {
 .menu {
     appearance: none;
     content: url(./image.png);
-    display: inline-block;
+    display: flex;
     width: 30px;
     position: relative;
-    left: 289px;
+
     display: none;
 }
+
 
 .res {
     position: fixed;
@@ -73,10 +74,6 @@ header {
     transform: translateX(0);
 }
 
-.logo {
-    font-size: 20px;
-    font-weight: 600;
-}
 
 /* responsiv*/
 @media (max-width:555px) {
